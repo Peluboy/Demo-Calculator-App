@@ -1,0 +1,37 @@
+.Button{
+  background:#f9f9f9;
+  width:60px;
+  height:60px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  border-radius:20%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:25px;
+  cursor:pointer;
+  transition: filter 0.3s ease-in;
+}
+
+.Button:active,
+.Button:hover,
+.Button:focus{
+  filter:brightness(120%);
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.Button.zero{
+  width:130px;
+  grid-column:1/span 2;
+  border-radius:15px;
+  psotion: relative;
+  justify-content:flex-start;
+  padding-left:20px;
+}
+
+.Button.function{
+  color:#4cfada;
+}
+
+.Button.operator{
+  color:#eb6565;
+}
