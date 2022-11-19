@@ -7,7 +7,6 @@ const App = ({ darkMode, setDarkMode }) => {
   const [value, setValue] = useState(0);
   const [memory, setMemory] = useState(null);
   const [operator, setOperator] = useState(null);
-  const [current, setCurrent] = useState("");
   const [hasCalculated, setHasCalculated] = useState(false);
 
   const handleButtonPress = (content) => () => {
